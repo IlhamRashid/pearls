@@ -1,0 +1,351 @@
+/* Navbar */
+
+.navigation {
+    width: 100%;
+    text-align: center;
+    vertical-align:bottom;
+}
+#nav-list {
+    margin:0 auto;
+    list-style-type: none;
+}
+#nav-list li {
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px;
+    vertical-align:bottom;
+    line-height:normal;
+    
+      
+    padding-right: 2rem; 
+}
+
+
+#nav-list a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav-list a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+
+/* this is the header */
+
+.cater3-movingBG {
+    height: 100%;
+    background-image: url("denys-nevozhai-z0nVqfrOqWA-unsplash.jpg");
+    background-size: 125%;
+    background-repeat: repeat-x;
+    animation: animatedBackground 15s linear alternate infinite;
+}
+
+@keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    50% { background-position: 50% 0; }
+    100% { background-position: 0 0; }
+}
+
+.flyinTxtCont {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-bottom: 10%;
+      margin-left: 2em;
+}
+.flyIn {
+    color:#fff;
+    font-family:'Raleway';
+    text-transform:uppercase;
+    line-height:1.2em;
+    position:relative;
+    text-shadow: 2px 2px 40px rgba(0,0,0,0.7);
+}
+.lineOne {
+transition-delay:.2s; 
+transition:.4s ease in;
+animation: txtFlyIn .3s linear;
+}
+.lineTwo {
+  transition-delay:.4s; 
+  transition:.6s ease in;
+  animation: txtFlyIn .6s linear;
+}
+.lineThree {
+  transition-delay:.6s; 
+  transition:.8s ease in;
+  animation: txtFlyIn .9s linear;
+}
+.lineOne, .lineTwo, .lineThree {
+  font-size:110px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  }
+.lineFour {
+transition-delay:2s; 
+transition:2s ease in;
+animation: fadeIn 2s linear;
+width: 100%;
+
+display:inline-block;
+color:#000;
+box-size:border-box;
+max-width:63%;
+max-width: 22em;
+font-size: 32px;
+padding: .2em .5em;
+margin-top: 30px;
+}
+@keyframes fadeIn{
+    0% { opacity:0;}
+    100% { opacity:1;}
+}
+@keyframes txtFlyIn{
+    0% { transform:translateX(-100%); }
+    100% { transform:translateX(0%); }
+}
+
+
+/* introduction */
+
+.intro {
+    margin-top: 40px;
+    margin-left: 100px;
+   display: inline-flex;
+   flex-wrap: wrap;
+   line-height: 80px;
+
+
+}
+.begin span {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: red;
+    display: inline;
+}
+.intro h3 {
+    
+     font-family: 'Permanent Marker', cursive;;
+    font-size: 100px;
+    font-weight: bold;
+    width: 50px;
+    height: 40px;
+
+}
+.begin p {
+    font-family: 'Permanent Marker', cursive;;
+    font-size: 70px;
+    font-weight: bold;
+    width: 50px;
+    height: ;
+}
+ .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("ivana-cajina-dnL6ZIpht2s-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 500px;
+    
+ }
+ .work p {
+    font-weight: bold;
+ }
+ .work span {
+    font-style: italic;
+ }
+ .work button {
+    border-radius: 3px;
+    width: 50%;
+    height: 10%;
+    background-color: royalblue;
+    color: whitesmoke;
+    font-size: 15px;
+    
+ }
+.work button:hover {
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("javier-allegue-barros-C7B-ExXpOIE-unsplash.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+
+
+
+.first {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 100px;
+    color: red;
+}
+.second {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 200px;
+
+}
+.row {
+   display: flex;
+   flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+
+  
+}
+
+
+ .mindset {
+    background-image: url("mohamed-nohassi-odxB5oIG_iA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    color: black;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    padding:  10px 0;
+
+}
+
+ .nutrition {
+     background-image: url("mariana-medvedeva-usfIE5Yc7PY-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    color: black;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    padding:  10px 0;
+    justify-content: space-around;
+
+}
+ .fitness {
+     background-image: url("kelly-sikkema-IZOAOjvwhaM-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    padding:  10px 0;
+    justify-content: space-between;
+}
+
+.col button {
+    border-radius: 3px;
+    width: 50%;
+    height: 10%;
+    background-color: lightsteelblue;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.col button:hover {
+    cursor: pointer;
+    background-color: fuchsia;
+}
+
+.quote {
+  /* The image used */
+  background-image: url("laura-vinck-Hyu76loQLdk-unsplash.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+.quote span {
+    font-family: open sans;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 4em;
+    letter-spacing: .16em;
+    line-height: 1.3em;
+    text-transform: none;
+    text-align: center;
+}
+.quote figcaption {
+    font-family: open sans;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 4em;
+    letter-spacing: .16em;
+    line-height: 1.3em;
+    text-transform: none;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    vertical-align:bottom
+}
+.footer-list {
+    margin:0 auto;
+    list-style-type: none;
+}
+
+.footer-list li {
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px;
+    vertical-align:bottom;
+    line-height:normal;
+    padding-right: 2rem; 
+}
+
+.footer-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
